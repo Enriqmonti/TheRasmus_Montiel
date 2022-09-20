@@ -1,0 +1,23 @@
+.container{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding: 1rem;
+
+    .box{
+        flex: 1 1 320px;
+    }   
+    
+    .news{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+
+        &_image{
+            display: flex;
+            /* transform: translate(-100px, 100px); */
+        }
+    }
+    
+}

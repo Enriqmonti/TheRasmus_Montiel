@@ -1,0 +1,34 @@
+.llenado{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+    &__titulo{
+        font-size: 18px;
+    }
+
+    .formulario{
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .relacionados{
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px; 
+    }
+    
+    .TítuloRel{
+        align-items: center;
+    }
+    
+    .tablasrel{
+        width: 100%;
+        font-size: 18px;
+    }
+}

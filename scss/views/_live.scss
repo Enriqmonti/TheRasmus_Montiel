@@ -1,0 +1,14 @@
+.conciertos{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+
+    &_box{
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .table{
+        color: white;
+    }
+}

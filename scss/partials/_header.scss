@@ -1,0 +1,35 @@
+.main-header{
+    background: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+    padding: 2rem;
+    animation: animaciongradiente 15s ease infinite;
+
+    &__nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    &__logo{
+        display: block;
+        max-width: 200px;
+        min-width: 150px;
+        animation: movlogo 15s ease infinite;
+    }
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+    &__link{
+        padding: 10px;
+        transition: all .8s;
+    }
+    
+    &__link:hover{
+        background-color:black;
+        color: white;
+    }
+}
